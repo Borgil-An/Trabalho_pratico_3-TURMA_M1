@@ -6,7 +6,11 @@ Se o nó tiver dois subnós, então o valor deste nó é o valor menor entre seu
 Dada uma árvore binária desse tipo, você precisa exibir o segundo menor valor no conjunto formado por todos os valores dos nós em toda a árvore.
 Se nenhum segundo menor valor existir, exiba -1 em vez disso.
 
-Casos de sucesso: Todos testes do submit do proprio leetcode.
+Casos de sucesso: Input: root = [2,2,5,null,null,5,7]
+                  Input: root = [2,2,2]
+                  Input: root = [2,2,2147483647]
+
+
 
 O que funcionou ou não: Não funcionou tentar resolver o problema totalmente pela força bruta (37/39 dos casos funcionam no primeiro código).
 Funcionou usar recursividade de função.
